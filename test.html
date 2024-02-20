@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: navajowhite;
+            background-size: cover;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        .container {
+            display: inline-block;
+        }
+
+        .typed-out {
+            overflow: hidden;
+            border-right: .15em solid orange;
+            white-space: nowrap;
+            animation: typing 5s forwards infinite; /* Repetición infinita */
+            font-size: 1.6rem;
+            width: 0;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>I'm Matt, I'm a</h1>
+    <div class="container">
+        <div class="typed-out">Web Developer</div>
+    </div>
+</body>
+</html>
