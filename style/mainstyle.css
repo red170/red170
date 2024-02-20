@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb {
     right: 10%;
     border-radius: 10px;
     
-    background-image: url(/resources/cover.JPG);
+    background-image: url(../resources/cover.JPG);
     background-size: cover;
     overflow: hidden;
     position: absolute;
