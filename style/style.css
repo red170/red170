@@ -1,0 +1,146 @@
+
+body{
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+
+}
+
+hr{
+    border-color: red;
+}
+
+.descripcionPersonal{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.descripcionPersonalImagen{
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.descripcionPersonalImagen > img{
+    width: 150px;
+}
+
+.descripcionPersonalTexto{
+    display: inline-block
+}
+
+.descripcionPersonalTexto h1{
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.descripcionPersonalTexto h2{
+    font-size: 2em;
+
+}
+
+.contenedorEnlaces{
+    margin-top: 10px;
+
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: red;
+    color: black;
+    display: inline-block;
+}
+
+.contenedorEnlaces div{
+    display: flex;
+    align-content: center;
+}
+
+.logoEnlaces{
+    width: 20px;
+    display: inline-block;
+}
+
+.textoEnlaces{
+    margin-left: 5px;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.aboutMe{
+    margin: 50px 0;
+}
+
+.aboutMe h1{
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+
+
+
+.tecnologias{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+    
+}
+
+.tecnologias h1{
+    font-size: 2em;
+
+    
+}
+
+.contenedorIconosTecnologias{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.iconoTecnologia{
+    margin-top: 10px;
+
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: red;
+    color: black;
+    display: inline-block;
+
+}
+.iconoTecnologia div{
+    display: flex;
+
+    align-content: center;
+}
+.logoTecnologia{
+    width: 40px;
+    display: inline-block;
+
+}
+
+.iconoTecnologia p{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    margin: 40px;
+}
