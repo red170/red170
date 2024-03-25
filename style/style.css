@@ -1,19 +1,18 @@
 
 body{
-    
     background-color: rgb(0, 0, 0);
     color: rgb(255, 0, 0);
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-
-
 }
 
 hr{
     border-color: red;
 }
+
+/*Bloque Superior de Informacion Personal*/
 
 .descripcionPersonal{
     width: 980px;
@@ -74,6 +73,8 @@ hr{
     display: inline-block;
 }
 
+/*Bloque Sobre Mi*/
+
 .aboutMe{
     margin: 50px 0;
 }
@@ -83,7 +84,9 @@ hr{
     margin: 10px 0;
 }
 
+/*----Terminacion Primer Bloque de la Pagina----*/
 
+/*Bloque de Tecnologias*/
 
 
 .tecnologias{
@@ -132,10 +135,182 @@ hr{
     margin: 10px;
 }
 
+/*----Terminacion Segundo Bloque de la Pagina----*/
+
+/*Bloque de Proyectos*/
+
+.proyectos{ 
+
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+
+}
+
+.proyectos h1{
+    font-size: 2em;
+}
+
+.contenidoProyecto1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.contenidoProyecto1 h1{
+    font-size: 1.5em;
+}
+
+.contenidoProyecto1 h2{
+    font-size: 1em;
+
+    margin: 10px 0;
+}
+
+.descripcionProyecto1{  /*Bloque Izquierdo Info*/
+    flex: 1;
+    padding-right: 10px;
+    
+}
+
+.iconoEnlaceProyecto{
+    margin-top: 10px;
+
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: red;
+    color: black;
+    display: inline-block;
+    
+}
+
+.iconoEnlaceProyecto div{
+    display: flex;
+    align-content: center;
+}
+
+.logoEnlace{
+    width: 40px;
+    display: inline-block;
+}
+
+.iconoEnlaceProyecto p{
+    display: inline-block;
+    margin: 10px;
+}
+
+.imagenProyecto1{  /*Bloque Derecho Imagen*/
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.imagenProyecto1 img{
+    width: 400px;
+
+    
+}
+
+/*----Terminacion Tercer Bloque de la Pagina----*/
+
+.formacion{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+}
+
+.formacion h1{
+    font-size: 2em;
+}
+
+.formacion1{
+    margin-top: 20px;
+}
 
 
+.progress1 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 15px;
+    width: 500px;
+    margin: 10px 0;
+}
+  
+.progress-value1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #ff0000;
+    border-radius: 100px;
+    background: #ff0000;
+    height: 10px;
+    width: 0;
+}
+  
+@keyframes load1 {
+    0% { width: 0; }
+    100% { width: 95%; }
+}
 
+.progress2 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 15px;
+    width: 500px;
+    margin: 10px 0;
+}
+  
+.progress-value2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #ff0000;
+    border-radius: 100px;
+    background: #ff0000;
+    height: 10px;
+    width: 0;
+}
+  
+@keyframes load2 {
+    0% { width: 0; }
+    100% { width: 18%; }
+}
 
+.progress3 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 15px;
+    width: 500px;
+    margin: 10px 0;
+}
+  
+.progress-value3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #ff0000;
+    border-radius: 100px;
+    background: #ff0000;
+    height: 10px;
+    width: 0;
+}
+  
+@keyframes load3 {
+    0% { width: 0; }
+    100% { width: 30%; }
+}
 
 
 
