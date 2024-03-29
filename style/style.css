@@ -587,3 +587,133 @@ footer{
       clip: rect(90px, 9999px, 23px, 0);
     }
   }
+
+/*Breakponits*/
+
+@media only screen and (max-width : 1000px) {
+  
+  .descripcionPersonal{
+    width: 750px;
+  }
+
+  .glitch{
+    width: 600px;
+  }
+
+  .tecnologias{
+    width: 750px;
+  }
+
+  .proyectos{
+    width: 750px;
+  }
+
+  .formacion{
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width : 850px) {
+  
+  .descripcionPersonal{
+    width: 650px;
+  }
+
+  .glitch{
+    width: 500px;
+  }
+
+  .tecnologias{
+    width: 650px;
+  }
+
+  .proyectos{
+    width: 650px;
+  }
+
+  .formacion{
+    width: 650px;
+  }
+
+}
+
+@media only screen and (max-width : 700px) {
+  
+  .descripcionPersonal{
+    width: 550px;
+  }
+
+  .tecnologias{
+    width: 550px;
+  }
+
+  .proyectos{
+    width: 550px;
+  }
+
+  .formacion{
+    width: 550px;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  
+  .descripcionPersonal{
+    width: 450px;
+  }
+
+  .tecnologias{
+    width: 450px;
+  }
+
+  .proyectos{
+    width: 450px;
+  }
+
+  .formacion{
+    width: 450px;
+  }
+
+}
+
+@media only screen and (max-width : 500px) {
+  
+  .descripcionPersonal{
+    width: 400px;
+  }
+
+  .tecnologias{
+    width: 400px;
+  }
+
+  .proyectos{
+    width: 400px;
+  }
+
+  .formacion{
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width : 400px) {
+  
+  .descripcionPersonal{
+    width: 350px;
+  }
+
+  .tecnologias{
+    width: 350px;
+  }
+
+  .proyectos{
+    width: 350px;
+  }
+
+  .formacion{
+    width: 350px;
+  }
+
+}
+
