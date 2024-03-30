@@ -434,6 +434,14 @@ footer{
     width: 750px;
   }
 
+  .contenidoProyecto1{
+    display: block;
+  }
+
+  .imagenProyecto1{
+    margin: 20px 0;
+  }
+
   .formacion{
     width: 750px;
   }
