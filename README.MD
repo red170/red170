@@ -7,4 +7,3 @@
 
 <h3>Porcaentaje de Uso de Lenguajes</h3>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=red170&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
-g
