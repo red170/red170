@@ -1,4 +1,4 @@
-h<img src="resources/1.13.png" />
+<img src="resources/1.13.png" />
 
 <h1>Hi! I'm RED170</h1>
 <h3>Escuchando Ahora </h3>
